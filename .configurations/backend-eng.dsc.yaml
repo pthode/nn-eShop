@@ -11,7 +11,7 @@ properties:
         description: Configure Git to use Default WAM account
       settings:
         SetScript: |
-          git clone --quiet https://github.com/contoso-co/eshop.git "Z:\workspaces\eshop"
+          git clone --quiet https://github.com/contoso-co/eshop.git "Z:\workspaces\nn-eshop"
           
         GetScript: return $false
         TestScript: return $false
