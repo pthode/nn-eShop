@@ -1,11 +1,9 @@
   ### Run common DSC configurations for contoso engineering environments to create Dev Drive and install common tools
-
-# Images:
-
 $schema: 1.0
 name: NovoWindows11
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc # base image
-hibernateSupport: "Enabled"
+description: "This definition is for a base Novo Windows 11 image"
+
 tasks:
   - name: ~/winget
     parameters:
