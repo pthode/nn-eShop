@@ -1,0 +1,602 @@
+[
+    {
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/DevCenterUnixSCEdevboxProjectA1959/images/ado-ContosoBaseImageDefinition",
+      "name": "ado-ContosoBaseImageDefinition",
+      "offer": "ImageDefinition",
+      "provisioningState": "Succeeded",
+      "publisher": "DevCenter",
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "ado-ContosoBaseImageDefinition",
+      "systemData": {
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/DevCenterUnixSCEdevboxProjectA1959/images/backend-eng",
+      "name": "backend-eng",
+      "offer": "ImageDefinition",
+      "provisioningState": "Succeeded",
+      "publisher": "DevCenter",
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "backend-eng",
+      "systemData": {
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/DevCenterUnixSCEdevboxProjectA1959/images/ContosoBaseImageDefinition",
+      "name": "ContosoBaseImageDefinition",
+      "offer": "ImageDefinition",
+      "provisioningState": "Succeeded",
+      "publisher": "DevCenter",
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "ContosoBaseImageDefinition",
+      "systemData": {
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/DevCenterUnixSCEdevboxProjectA1959/images/frontend-eng",
+      "name": "frontend-eng",
+      "offer": "ImageDefinition",
+      "provisioningState": "Succeeded",
+      "publisher": "DevCenter",
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "frontend-eng",
+      "systemData": {
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + Microsoft 365 Apps 21H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc-m365",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "MicrosoftWindowsDesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-21h2-ent-cpc-m365",
+      "systemData": {
+        "createdAt": "2021-10-04T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + OS Optimizations 22H2",
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-os",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-os",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "MicrosoftWindowsDesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 4,
+          "min": 2
+        },
+        "vCPUs": {
+          "max": 2,
+          "min": 1
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-22h2-ent-cpc-os",
+      "systemData": {
+        "createdAt": "2022-09-20T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc-m365",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "MicrosoftWindowsDesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-22h2-ent-cpc-m365",
+      "systemData": {
+        "createdAt": "2022-09-20T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 10 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc-m365",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc-m365",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "MicrosoftWindowsDesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win10-22h2-ent-cpc-m365",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2019 Enterprise on Windows 11 Enterprise + Microsoft 365 Apps 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win11-m365-gen2",
+      "offer": "visualstudio2019plustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2019-ent-general-win11-m365-gen2",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2019 Pro on Windows 11 Enterprise + Microsoft 365 Apps 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudio2019plustools_vs-2019-pro-general-win11-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudio2019plustools_vs-2019-pro-general-win11-m365-gen2",
+      "offer": "visualstudio2019plustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2019-pro-general-win11-m365-gen2",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2022 Enterprise on Windows 11 Enterprise + Microsoft 365 Apps 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2",
+      "offer": "visualstudioplustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2022-ent-general-win11-m365-gen2",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2022 Pro on Windows 11 Enterprise + Microsoft 365 Apps 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudioplustools_vs-2022-pro-general-win11-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudioplustools_vs-2022-pro-general-win11-m365-gen2",
+      "offer": "visualstudioplustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2022-pro-general-win11-m365-gen2",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2019 Enterprise on Windows 10 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win10-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudio2019plustools_vs-2019-ent-general-win10-m365-gen2",
+      "offer": "visualstudio2019plustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2019-ent-general-win10-m365-gen2",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2019 Pro on Windows 10 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudio2019plustools_vs-2019-pro-general-win10-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudio2019plustools_vs-2019-pro-general-win10-m365-gen2",
+      "offer": "visualstudio2019plustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2019-pro-general-win10-m365-gen2",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2022 Enterprise on Windows 10 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win10-m365-gen2",
+      "offer": "visualstudioplustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2022-ent-general-win10-m365-gen2",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Visual Studio 2022 Pro on Windows 10 Enterprise + Microsoft 365 Apps 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_visualstudioplustools_vs-2022-pro-general-win10-m365-gen2",
+      "name": "microsoftvisualstudio_visualstudioplustools_vs-2022-pro-general-win10-m365-gen2",
+      "offer": "visualstudioplustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "vs-2022-pro-general-win10-m365-gen2",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + Developer Optimizations 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftvisualstudio_windowsplustools_base-win11-gen2",
+      "name": "microsoftvisualstudio_windowsplustools_base-win11-gen2",
+      "offer": "windowsplustools",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftvisualstudio",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "base-win11-gen2",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + Microsoft 365 Apps 23H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-m365",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc-m365",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-23h2-ent-cpc-m365",
+      "systemData": {
+        "createdAt": "2023-10-31T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-22h2-ent-cpc",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-22h2-ent-cpc",
+      "systemData": {
+        "createdAt": "2022-09-20T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise 21H2",
+      "hibernateSupport": "Disabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-21h2-ent-cpc",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-21h2-ent-cpc",
+      "systemData": {
+        "createdAt": "2021-10-04T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 10 Enterprise 22H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win10-22h2-ent-cpc",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win10-22h2-ent-cpc",
+      "systemData": {
+        "createdAt": "2022-10-18T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise 23H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-23h2-ent-cpc",
+      "systemData": {
+        "createdAt": "2023-10-31T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise + Microsoft 365 Apps 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc-m365",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc-m365",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-24H2-ent-cpc-m365",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    },
+    {
+      "description": "Windows 11 Enterprise 24H2",
+      "hibernateSupport": "Enabled",
+      "id": "/subscriptions/4b9d8152-ebd5-4ce5-bf70-6d10336ac281/resourceGroups/rg-devunixscedata-devboxes/providers/Microsoft.DevCenter/devcenters/devunixsce-devbox/galleries/default/images/microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc",
+      "name": "microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc",
+      "offer": "windows-ent-cpc",
+      "provisioningState": "Succeeded",
+      "publisher": "microsoftwindowsdesktop",
+      "recommendedMachineConfiguration": {
+        "memory": {
+          "max": 8,
+          "min": 4
+        },
+        "vCPUs": {
+          "max": 4,
+          "min": 2
+        }
+      },
+      "resourceGroup": "rg-devunixscedata-devboxes",
+      "sku": "win11-24H2-ent-cpc",
+      "systemData": {
+        "createdAt": "2024-10-01T00:00:00Z",
+        "createdByType": "Application",
+        "lastModifiedByType": "Application"
+      },
+      "type": "Microsoft.DevCenter/devcenters/galleries/images"
+    }
+  ]
