@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+properties:
+  configurationVersion: 0.2.0
+  ########################################
+  ### RESOURCES: System Configuration
+  ########################################
+  resources:
+    # Clone the Git repository
+    - resource: PSDscResources/Script
+      directives:
+        description: Configure Git to use Default WAM account
+      settings:
+        SetScript: |
+          git clone --quiet https://github.com/pthode/nn-eShop.git "Z:\workspaces\nn-eshop"
+          
+        GetScript: return $false
+        TestScript: return $false
+    ########################################
+    ### Install CLIs, SDKs & Tools
+    ########################################
+    
+    
+    ### Install SAS Application
+    ### -------------------------------------
+    - resource: PSDscResources/Script
+      directives:
+        description: Install SAS Application
+      settings:
+        SetScript: |
+          # Download the SAS install base from Azure Blob Storage
+          azcopy copy "https://<your-storage-account>.blob.core.windows.net/<your-container>/sas-install-base.zip" "Z:\Downloads\sas-install-base.zip"
+          
+          # Unzip the install base
+          Expand-Archive -Path "C:\Path\To\sas-install-base.zip" -DestinationPath "C:\Path\To\sas-install-base"
+          
+          # Run the SAS installer
+          Start-Process -FilePath "C:\Path\To\sas-install-base\setup.exe" -ArgumentList "-partialprompt -responsefile `\"C:\Program Files\SAS\response.properties`\" -loglevel 1" -Wait -NoNewWindow
+        GetScript: return $false
+        TestScript: return $false
